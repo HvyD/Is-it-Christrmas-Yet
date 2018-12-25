@@ -1,7 +1,5 @@
 
-# coding: utf-8
-
-# Created BY HvyD
+## Created BY HvyD && Phidget_Kitty
 
 
 import datetime
