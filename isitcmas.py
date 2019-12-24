@@ -1,3 +1,4 @@
+#!/usr/bin/env python3.8
 
 # coding: utf-8
 
@@ -8,7 +9,9 @@
 
 
 # imports
+import os
 import datetime
+
 
 
 # Todays Date and Christmas Variable's
@@ -22,4 +25,17 @@ if Today == Christmas:
 
 else:
     print("No Presents For You!! it's only",Today.strftime('%b %d,%Y')) # return meesage with date function changed
+
+
+
+for i in range(11):
+    print('\n')
+
+input("Press the <ENTER> key to continue...")
+
+print('\n')
+print("Bye, Bye")
+print("Try Again Tomorrow!!!")
+print('\n')
+
 
