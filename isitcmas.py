@@ -1,5 +1,8 @@
 #!/usr/bin/env python3.8
-# ## Created By Hvy_D && Phidget_Kitty
+
+# coding: utf-8
+
+# ## Created By HvyD && Phidget_Kitty
 # This is a fun little scrypt and notebook built Christmas Eve 2018 with my Daughter.
 # This script should work all year around, provided the Python and datetime package is not defunct. 
 
@@ -24,7 +27,7 @@ else:
     print("No Presents For You!! it's only",Today.strftime('%b %d,%Y')) # return meesage with date function changed
 
 
-# Set space for small window execution
+
 for i in range(11):
     print('\n')
 
@@ -32,7 +35,7 @@ input("Press the <ENTER> key to continue...")
 
 print('\n')
 print("Bye, Bye")
-print("Try Again Tomorrow!!!")
+print("Try Again in : {}".format(Christmas - Today))
 print('\n')
 
 
