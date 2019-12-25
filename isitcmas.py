@@ -9,9 +9,7 @@
 
 
 # imports
-import os
 import datetime
-from datetime import timedelta
 
 
 
@@ -38,6 +36,7 @@ for i in range(11):
     print('\n')
 
 print("Bye, Bye")
+# This returns count down until Christmas - Days:Hours:Min:Secs to the 6th int
 print("Try Again in : {}".format(Christmas - Today))
 print('\n')
 

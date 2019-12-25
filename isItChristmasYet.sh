@@ -1,19 +1,27 @@
-#!/bin/bash
-#!/usr/bin/env python
+#!/usr/bin/env python3.8
+
+# coding: utf-8
+
+# ## Created By HvyD && Phidget_Kitty
+# This is a fun little scrypt and notebook built Christmas Eve 2018 with my Daughter.
+# This script should work all year around, provided the Python and datetime package is not defunct.
 
 
 
-# This Bash/Shell script executable on windows. Just change the directory path to your local place of storing the python file.
-# Happy Holidays!!!!
-# --Dependency needed == Python > 3.7
-#                     == Git Bash
-#                     == Holiday Spirit!
+# imports
+import os
+import datetime
 
 
+# Todays Date and Christmas Variable's
+Today = datetime.date.today()
+Christmas = datetime.date(Today.year , 12, 25)
 
-powershell -NoExit "bash -c 'cd Is-it-Christrmas-Yet;  python isitcmas.py; $SHELL'" Read-Host -Prompt "Press Enter to exit"
 
+# Boolean conditional statement checking Variable's
+if Today == Christmas:
+    print("MERRY CHRISTMAS") # return message
 
-
-
+else:
+    print("No Presents For You!! it's only",Today.strftime('%b %d,%Y')) # return meesage with date function changed
 
