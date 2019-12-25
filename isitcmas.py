@@ -11,12 +11,14 @@
 # imports
 import os
 import datetime
+from datetime import timedelta
+
 
 
 
 # Todays Date and Christmas Variable's
-Today = datetime.date.today()
-Christmas = datetime.date(Today.year , 12, 25)
+Today = datetime.datetime.today()
+Christmas = datetime.datetime(Today.year , 12, 25)
 
 
 # Boolean conditional statement checking Variable's 
@@ -27,15 +29,19 @@ else:
     print("No Presents For You!! it's only",Today.strftime('%b %d,%Y')) # return meesage with date function changed
 
 
-
 for i in range(11):
     print('\n')
 
 input("Press the <ENTER> key to continue...")
 
-print('\n')
+for i in range(11):
+    print('\n')
+
 print("Bye, Bye")
 print("Try Again in : {}".format(Christmas - Today))
 print('\n')
+
+
+
 
 
